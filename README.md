@@ -1,24 +1,57 @@
 # Smart Inventory Management System
 
-A Python-based command-line application for managing products, inventory, suppliers, customers, sales, and purchases using JSON for data storage.
+## Overview
+A Python-based console application for managing inventory, suppliers, customers, sales, purchases, billing, and reports.
 
 ## Features
-- User Authentication
+- Admin Authentication
 - Product Management
 - Inventory Management
 - Supplier Management
 - Customer Management
 - Sales Management
 - Purchase Management
+- Billing System
+- Reports Module
 
-## Technologies Used
+## Technologies
 - Python
 - JSON
 - Tabulate
 
-## How to Run
-1. Install Python
-2. Install tabulate:
-   pip install tabulate
-3. Run:
-   py main.py
+## Installation
+
+Install dependencies:
+
+```bash
+pip install tabulate
+```
+
+Run the project:
+
+```bash
+py main.py
+```
+
+## Folder Structure
+
+```
+SmartInventorySystem/
+│
+├── main.py
+├── authentication.py
+├── product.py
+├── inventory.py
+├── supplier.py
+├── customer.py
+├── sales.py
+├── purchase.py
+├── billing.py
+├── reports.py
+├── README.md
+└── data/
+```
+
+## Author
+
+Saloni Joshi
