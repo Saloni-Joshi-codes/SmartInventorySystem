@@ -6,6 +6,7 @@ from customer import customer_menu
 from sales import sales_menu
 from purchase import purchase_menu
 from billing import billing_menu
+from reports import reports_menu
 
 def menu():
     while True:
@@ -52,9 +53,9 @@ def menu():
 
         elif choice == "7":
             billing_menu()
-            
+
         elif choice == "8":
-              print("This module will be developed next.")
+            reports_menu()
         
         else:
             print("Invalid Choice!")
