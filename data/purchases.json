@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "supplier_id": "S101",
+        "supplier_name": "ABC Traders",
+        "product_id": "101",
+        "product_name": "Keyboard",
+        "quantity": 20,
+        "total": 9000.0
+    }
+]

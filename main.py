@@ -3,6 +3,8 @@ from product import product_menu
 from inventory import inventory_menu
 from supplier import supplier_menu 
 from customer import customer_menu
+from sales import sales_menu
+from purchase import purchase_menu
 
 def menu():
     while True:
@@ -41,7 +43,13 @@ def menu():
         elif choice == "4":
             customer_menu()
 
-        elif choice in ["5", "6", "7", "8"]:
+        elif choice == "5":
+            sales_menu()
+        
+        elif choice == "6":
+            purchase_menu()
+            
+        elif choice in ["7", "8"]:
               print("This module will be developed next.")
         
         else:

@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "id": "S101",
+        "company": "ABC Traders",
+        "phone": "9872345671",
+        "email": "abc@gmail.com",
+        "address": "Jaipur"
+    }
+]

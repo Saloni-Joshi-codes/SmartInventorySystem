@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "customer_id": "C101",
+        "customer_name": "Rahul Sharma",
+        "product_id": "101",
+        "product_name": "Keyboard",
+        "quantity": 10,
+        "total": 6000.0
+    }
+]
